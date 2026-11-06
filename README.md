@@ -28,7 +28,7 @@ When an incoming SIM call is answered on an Indian number (`+91...`), Sajag scre
 3. **Autonomous Decoy Handover ($P_{\text{scam}} \ge 0.88$)**:
    - **Victim Voice Isolation**: The device triggers a waveform vibration alert, renders a high-visibility cyber HUD alert, and **strictly mutes the victim's microphone** with a background watchdog to ensure zero victim voice leaks to the scammer.
    - **Ramesh Sharma Decoy Injection**: The Retell AI decoy bot plays an authentic, confused elder persona ("Ramesh Sharma"), engaging and stalling the scammer for 10+ minutes while extracting mule UPIs, bank handles, and claimed departments.
-   - **Emergency Family Automation**: Dispatches an instant webhook to **n8n Cloud** to send Twilio SMS emergency alerts to family members (`+919922996010`).
+   - **Emergency Family Automation**: Dispatches an instant webhook to **n8n Cloud** to send Twilio SMS emergency alerts to family members (`+919929xxx60xx`).
    - **1930 Cybercrime Dossier**: Renders court-ready National Cyber Crime Reporting Portal (NCRP) evidence dossiers in PDF format with 1-click WhatsApp and police sharing.
 
 ---
@@ -55,7 +55,7 @@ flowchart TD
     
     M --> N["Hardware Mic Mute Watchdog (Victim Voice Strictly Isolated)"]
     M --> O["Decoy Audio Injection (Ramesh Sharma Voice / Retell AI Stream)"]
-    M --> P["n8n Automation Event (Twilio SMS Alert to +919922996010)"]
+    M --> P["n8n Automation Event (Twilio SMS Alert to +919929xxx60xx)"]
     M --> Q["Extract Mule Handles (UPI: police.verify@sbi)"]
     
     Q --> R["1930 Incident Dossier Generated (GET /reports/{call_id}/pdf)"]
@@ -221,7 +221,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 The app includes an **On-Device Simulator** accessible on **Tab 1 (Live HUD)**:
 1. **Simulate Known Safe Call**:
-   - Triggers an incoming call from Mom / Whitelist (`+919922996010`).
+   - Triggers an incoming call from Mom / Whitelist (`+919929xxx60xx`).
    - Displays `SAFE (KNOWN CONTACT)` badge.
    - Scam analysis and decoy takeover are bypassed.
 2. **Simulate Unknown Scam Call**:
