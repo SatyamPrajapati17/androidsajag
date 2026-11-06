@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shield_bg">#050B14</color>
+    <color name="shield_surface">#0D1929</color>
+    <color name="shield_surface_variant">#16253B</color>
+    <color name="shield_cyan">#22E5FF</color>
+    <color name="shield_alert_red">#FF4D5E</color>
+    <color name="shield_safe_green">#3DFF8A</color>
+    <color name="shield_warning_amber">#FFB800</color>
+    <color name="shield_text_primary">#F0F6FC</color>
+    <color name="shield_text_secondary">#8B949E</color>
+</resources>

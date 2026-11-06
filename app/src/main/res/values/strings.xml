@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sajag Mobile Shield</string>
+    <string name="tagline">On-Device Scam Interception &amp; Autonomous Baiting</string>
+    <string name="status_monitoring">MONITORING</string>
+    <string name="status_pending">PENDING TAKEOVER</string>
+    <string name="status_decoy_active">DECOY ACTIVE</string>
+    <string name="panic_button_label">FORCE HANDOVER TO RAMESH BOT</string>
+    <string name="emergency_1930">1930 Cyber Helpline</string>
+</resources>
